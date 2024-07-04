@@ -1,0 +1,33 @@
+#demo{
+    border: 2px solid;
+    height: 300px;
+    /* background-image: linear-gradient(red,yellow,crimson,blue); */
+     /* background-image: linear-gradient(to left,red,yellow,crimson,blue); */
+     /* background-image: linear-gradient(to right,red,yellow,crimson,blue); */
+     background-image: linear-gradient(to top,red,yellow,crimson,blue);
+     /* background-image: linear-gradient(to bottom,red,yellow,crimson,blue); */
+}
+
+#demo1{
+    border: 2px solid;
+    height: 300px;
+    background-image: radial-gradient(red,yellow,crimson,blue);
+}
+
+#demo2{
+    border: 2px solid;
+    height: 400px;
+    width: 600px;
+    /* background-image: radial-gradient(circle,red,yellow,crimson,blue); */
+    /* background-image: radial-gradient(circle farthest-corner at 60% 60% ,red,yellow,crimson,blue); */
+    /* background-image: radial-gradient(circle farthest-side at 60% 60% ,red,yellow,crimson,blue); */
+    /* background-image: radial-gradient(circle closest-corner at 60% 60% ,red,yellow,crimson,blue); */
+    background-image: radial-gradient(circle closest-side at 60% 60% ,red,yellow,crimson,blue);
+}
+
+#demo3{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red,yellow,crimson,blue);
+}

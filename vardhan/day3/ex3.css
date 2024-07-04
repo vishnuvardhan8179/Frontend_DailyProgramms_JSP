@@ -1,0 +1,13 @@
+
+div div >h1{
+    color: red;
+}
+div div >h1+h1{
+    color: aqua;
+}
+div+div >span h1{
+    color:blue ;
+}
+div~div  h1{
+    color: darkorchid;
+}

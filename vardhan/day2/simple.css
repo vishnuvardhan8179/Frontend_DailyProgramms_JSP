@@ -1,0 +1,35 @@
+#demo{
+    color: chocolate;
+}
+#demo1{
+    color: deepskyblue;
+}
+#demo2{
+    color: deeppink;
+}
+.demo3{
+    color: salmon;
+    border: 2px solid;
+    background-color: aqua;
+    text-align: center;
+}
+p{
+    color: rgb(19, 93, 229);
+    background-color: darkseagreen;
+}
+#demo4{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+h2,h3{
+    text-align: center;
+    background-color: blue;
+}
+/* body{
+    background-color:aqua;
+} */
+*{
+    background-color: rgb(215, 145, 102);
+    color: yellow;
+}

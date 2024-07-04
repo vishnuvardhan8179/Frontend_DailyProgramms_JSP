@@ -1,0 +1,21 @@
+ol li{
+    background-color: blue;
+}
+ol li+li+li{
+    background-color: green;
+}
+ol li> ul>li{
+    background-color: yellow;
+}
+ol li > ul>li+li{
+    background-color: brown;
+}
+ol li>ul>li+li+li{
+    background-color: blue;
+}
+ol +ol>li{
+    background-color: orange;
+}
+ol+ol>li+li{
+    background-color: green;
+}

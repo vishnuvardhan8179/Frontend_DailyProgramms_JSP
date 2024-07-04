@@ -1,0 +1,82 @@
+#class3{
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 9px;
+}
+#class3:hover{
+    background-color: white;
+    color: darkviolet;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+#class4{
+    background-color: white;
+    color: darkviolet;
+    border-color: darkviolet;
+    padding: 6px;
+    border-radius: 9px;
+}
+#class4:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+img{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 700px;
+    top: 140px;
+}
+#div4{
+    position: absolute;
+    left: 100px;
+    top: 140px;
+}
+#div2{
+     
+    padding-top: 30px;
+    border: 1px solid;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#class2{
+    position:absolute ;
+    left: 1100px;
+    background-color: blue;
+    color: white;
+}
+#class1{
+    position: absolute;
+    left: 1000px;
+    text-decoration: none;
+}
+#class{
+    position: absolute;
+    left: 60px;
+    font-size: 20px;
+    color: rgb(183, 9, 93);
+}
+#vishnu{
+    font-size: 15px;
+}
+#vishnu1{
+    font-size: 40px;
+    
+}
+#div1{
+    height: 550px;
+    width: 1300px;
+    border-bottom-left-radius: 85%;
+    border-bottom-right-radius: 95%;
+    background-color: rgb(223,232,236);
+    /* text-align: center; */
+}
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+   
+}

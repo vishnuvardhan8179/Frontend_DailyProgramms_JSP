@@ -1,0 +1,18 @@
+div div span >ol >li{
+    color: brown;
+}
+div div span>ol>li+li{
+    color: blue;
+}
+div div span>ol>li+li+li{
+    color: aqua;
+}
+div div span>ol>li+li+li+li{
+    color: blueviolet;
+}
+div div span + ol>li>ul>li{
+    color: crimson;
+}
+div div span + ol>li>ul>li+li{
+    color: black;
+}

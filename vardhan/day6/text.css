@@ -1,0 +1,18 @@
+p{
+    color: brown;
+    text-indent: 20px;
+    text-transform: capitalize;  
+    text-decoration: underline;
+    text-shadow: 50px 50px 1px blue;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    line-height: 50px;
+    text-decoration-style: dashed;
+    text-decoration-color: aqua;
+    text-overflow: clip;
+    border: 2px solid;
+    width: 500px;
+    white-space: 10px ;
+    resize: both;
+    overflow: scroll;
+}

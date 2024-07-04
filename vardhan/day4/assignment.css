@@ -1,0 +1,21 @@
+div ol{
+    background-color: blue;
+}
+div ol>li{
+    background-color: green;
+}
+div ol >li+li{
+    background-color: yellow;
+}
+div ol>li >span{
+    background-color: brown;
+}
+div ol+ div{
+    background-color: crimson;
+}
+div div>div span{
+    background-color: yellow;
+}
+div+div div span{
+    background-color: green;
+}

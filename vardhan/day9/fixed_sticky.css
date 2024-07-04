@@ -1,0 +1,44 @@
+div{
+    border: 2px solid;
+    background-color: coral;
+    width: 100%;
+    /* position: fixed; */
+    position: sticky;
+    top: 0%;
+}
+div ol{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+}
+div ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+aside{
+    background-image: url("./images/css_ass1.png");
+    border: 2px solid;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+aside h1{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: darkorange;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+footer{
+    border: 2px solid;
+    color: rgb(255, 0, 221);
+    background-color: chartreuse;
+    text-align: center;
+    width: 100%;
+    /* position:fixed; */
+    top: 540px;
+} 

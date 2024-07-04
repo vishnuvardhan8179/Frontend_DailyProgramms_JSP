@@ -1,0 +1,13 @@
+#demo{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.demo1{
+    font-size: xx-large;
+    margin: 10px;
+    background-color: rgb(38, 255, 0);
+    text-align: left;
+}
+#demo3{
+    font-style: italic;
+}

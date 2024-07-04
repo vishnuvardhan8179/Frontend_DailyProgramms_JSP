@@ -1,0 +1,18 @@
+*{
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Roboto', sans-serif;
+}
+h3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+     color: white;
+     background-color: red;
+}

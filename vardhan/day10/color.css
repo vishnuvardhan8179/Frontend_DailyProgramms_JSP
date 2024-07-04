@@ -1,0 +1,23 @@
+p{
+    /* color: red; */
+    /* color: #ff0000; */
+    /* color: rgb(200, 100,50); */
+    /* color: rgba(200, 100, 100, 1);   */
+    /* color: hsl(240deg, 70%, 50%); */
+    color: hsla(100deg, 30%, 50%, 1);
+}
+img{
+  height: 300px;
+  width: 300px;
+  /* filter: blur(5px); */
+  /* filter: brightness(10%); */
+  /* filter: contrast(50%); */
+   /* filter: drop-shadow(10px 10px 1px); */
+   /* filter: grayscale(50%); */
+   /* filter: hue-rotate(80deg); */
+   filter:saturate(1%);
+   /* cursor: help; */
+   cursor: pointer;
+   /* cursor: crosshair; */
+   /* cursor: grab; */
+}

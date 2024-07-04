@@ -1,0 +1,44 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* margin: 500px; */
+    /* transition: height 10s,width 5s; */
+    transition-duration: 10s;
+    /* transition-delay: 5s; */
+    /* transition-property: height , width; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+}
+div:hover{
+    height: 600px;
+    width: 600px;
+    transform: rotate(7770deg);
+    border-radius: 100%;
+    /* transform: translate(100px,100px); */
+    /* transform: translatex(-400px); */
+    /* transform: translatey(-300px); */
+    /* transform: rotate(-65deg); */
+    /* transform: rotatex(70deg); */
+    /* transform: rotatey  (90deg); */
+    /* transform: scale(2,2); */
+    /* transform: scalex(2); */
+    /* transform: scaleY(2); */
+    /* transform: skew(35deg,39deg); */
+    /* transform: skewX(45deg); */
+    /* transform: skewy(45deg); */
+    background-color: aqua;
+}
+img{
+    transition-duration: 10s;
+    /* transform: rotate(7770deg); */
+}
+img:hover{
+    transform: translate(800px);
+    /* transform: rotatex(7770deg); */
+    /* transform: rotateY(7770deg); */
+}

@@ -1,0 +1,150 @@
+/* display:flex */
+
+/* ol{
+    border: 2px solid;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: red;
+    display: flex;
+}
+li{
+    border: 2px solid;
+    padding: 20px;
+    width: 100px;
+    background-color: coral;
+    flex: 1;
+} */
+
+/* display:in-line flex */
+
+/* ol{
+    border: 2px solid;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: red;
+    display:inline-flex;
+    width: 50%;
+    gap: 20px;
+}
+li{
+    border: 2px solid;
+    padding: 20px;
+    width: 100px;
+    background-color: coral;
+    flex: 1;
+    
+} */
+
+/* justify-content */
+
+/* ol{
+    border: 1px solid;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: red;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+/* }
+li{
+    border: 1px solid;
+    padding: 10px 10px;
+    margin: 5px;
+    background-color: coral;
+    width: 100px;
+} */ 
+
+/* align-items */
+/* ol{
+    list-style:none;
+    border: 1px solid;
+    padding: 0%;
+    margin: 0%;
+    background-color: red;
+    display: flex;
+    height: 300px;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+/* } */
+/* li{
+    border: 1px solid;
+    padding: 10px ;
+    width: 100px;
+    height: 10px;
+    margin: 5px;
+    background-color: aqua;
+    color:rgb(38, 0, 255);
+} */ 
+
+/* flex direction */
+/* ol{
+    list-style: none;
+    border: 2px solid;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    
+} */
+/* li{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    padding: 20px 10px;
+    margin: 5px;
+} */
+
+/* flex wrap */
+
+/* ol{
+    border: 2px solid;
+    height: 350px;
+    width: 300px;
+    margin:0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+li{
+    border: 2px solid;
+    height: 40px;
+    width: 80px;
+    padding: 8px;
+    margin: 5px;
+} */
+
+/* align content */
+
+ol{
+    border: 2px solid;
+    height: 300px;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+li{
+    border: 1px solid;
+    height: 40px;
+    width: 80px;
+}

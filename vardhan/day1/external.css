@@ -1,0 +1,10 @@
+ @import url(demo1.css);
+ @import url(demo2.css);
+ #demo{
+    border: 2pxsolid;
+    color: rgb(185, 116, 25);
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 10px 10px 1px blueviolet;
+} 

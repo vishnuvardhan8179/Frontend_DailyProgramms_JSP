@@ -1,0 +1,20 @@
+@media (min-width: 0px) and (max-width: 110px) {
+    #demo{
+        background-color: red;
+        height: 500px;
+    }
+}
+
+@media (min-width:110px) and (max-width: 300px){
+    #demo{
+        background-color: green;
+        height: 500px;
+    }
+}
+
+@media (min-width: 300px) and (max-width:624px){
+    #demo{
+        background-color: blue;
+        height: 800px;
+    }
+}

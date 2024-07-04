@@ -1,0 +1,16 @@
+/* div h1{
+    background-color: chartreuse;
+} */
+ 
+/* div >h1{
+    background-color: chocolate;
+}
+div span>h1{
+    background-color: rgb(224, 224, 23);
+} */
+div + div h1{
+    background-color: coral;
+}
+/* div~h1{
+    background-color: crimson;
+} */
