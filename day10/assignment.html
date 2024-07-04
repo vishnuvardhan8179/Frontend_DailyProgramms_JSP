@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: blue;
+            font-weight: bold;
+        }
+        table{
+            box-shadow: 6px 6px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <table style="border-radius: 20px; background-color: darkgray;" align="center">
+       <center><h1 style="color: blue;"><marquee behavior="alternate" direction="" width="500px">COURSE FORM</marquee></h1></center> 
+        <form action="">
+            <tr>
+            <td align="center"><label for="name" >FIRST NAME</label><sup style="color: red;">*</sup>
+                <input type="text" id="name" name="name" required placeholder="enter your first name">
+                <label for="lname">LAST NAME</label> 
+                <input type="text" id="lname" name="lname"><br> <br>
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" id="dob">
+                <br><br>
+                <label for="mail">MAIL_ID</label>
+                    <input type="email" id="mail" name="mail">
+                 <br><p style="color: green;">
+                <label for="gen">GENDER</label>
+                    male<input type="radio" id="gen" name="gen" >
+                    female<input type="radio" id="gen" name="gen">
+                    others<input type="radio" id="gen" name="gen"></p>
+                <p style="color: green;">
+                <label for="skill">SKILL YOU KNOW</label>
+                    SQL <input type="checkbox" id="skill" name="skill">
+                        JAVA <input type="checkbox" id="skill" name="skill">
+                        HTML <input type="checkbox" id="skill" name="skill">
+                        CSS <input type="checkbox" id="skill" name="skill">
+                        JS <input type="checkbox" id="skill" name="skill">
+                        PYTHON <input type="checkbox" id="skill" name="skill"></p>
+                  <p style="color: green;"> <label for="course">COURSE DURATION:</label>
+                    JOINING MONTH <input type="month" id="course" name="course">
+                    COMPLETION MONTH<br> <input type="month" id="course" name="course"></p>
+                    <label for="upload">UPLOAD YOUR PROFILE</label>
+                        <input type="file" id="upload" name="upload">
+                    <br>
+                    <p style="color: green;">
+                        <label for="class">CLASS TIMING</label>
+                       FROM <input type="date" name="class" id="class">
+                       TO <input type="date" name="class" id="class">
+                    </p>
+                     <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                         <label for="password">CONFIRM PASSWORD</label>
+                           <input type="password" id="password" name="password"><br><br>
+                <input type="submit" id="submit" name="submit">
+                    <input type="reset" id="reset" name="reset">
+                     <br><br>
+                 <button style="color: red;">EXIT</button>
+            </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

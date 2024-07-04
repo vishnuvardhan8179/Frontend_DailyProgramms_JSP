@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Register</legend>
+    <table>
+        <form action="">
+            <tr>
+                <td><label for="name" required>Name:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Lastname:</label></td>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="phno">PHNO:</label></td>
+                <td><input type="tel" id="phno" name="phno"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Gmail:</label></td>
+                <td><input type="email" id="mail" name="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age"></td>
+            </tr>
+            <tr>
+                <td><label for="add">Adress:</label></td>
+                <td><textarea name="add" id="add" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="qualify">Qualification:</label></td>
+                <td><input list="qualify">
+                     <datalist id="qualify">
+                        <option value="BSC">BSC</option>
+                        <option value="Btech">Btech</option>
+                        <option value="Bcom">Bcom</option>
+                     </datalist>
+                 </td>
+            </tr>
+        </form>
+    </table>
+    </fieldset>
+</body>
+</html>
